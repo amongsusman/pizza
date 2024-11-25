@@ -19,7 +19,7 @@ int main() {
     cin >> pizzaSize;
     cout << "How many toppings would you like on your pizza?" << endl;
     cin >> numOfToppings;
-    int price = calcPrice(pizzaSize, numOfToppings);
+    double price = calcPrice(pizzaSize, numOfToppings);
     displayBill(price);
     return 0;
 }
